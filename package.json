@@ -1,0 +1,40 @@
+{
+  "name": "koa-map-local",
+  "version": "0.0.1",
+  "description": "Charles map local for Koa.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test-cover": "istanbul cover _mocha -- -u exports",
+    "report-cover": "codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/magicdawn/koa-map-local.git"
+  },
+  "keywords": [
+    "charles",
+    "map",
+    "local",
+    "map-local"
+  ],
+  "author": "magicdawn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magicdawn/koa-map-local/issues"
+  },
+  "homepage": "https://github.com/magicdawn/koa-map-local#readme",
+  "devDependencies": {
+    "codecov": "^1.0.1",
+    "eslint": "^3.19.0",
+    "istanbul": "^1.1.0-alpha.1",
+    "mocha": "^3.1.2",
+    "should": "^11.1.1"
+  },
+  "files": [
+    "package.json",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
+  ]
+}
