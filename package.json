@@ -28,6 +28,7 @@
     "codecov": "^1.0.1",
     "eslint": "^3.19.0",
     "istanbul": "^1.1.0-alpha.1",
+    "koa": "^2.2.0",
     "mocha": "^3.1.2",
     "should": "^11.1.1"
   },
@@ -36,5 +37,9 @@
     "CHANGELOG.md",
     "LICENSE",
     "README.md"
-  ]
+  ],
+  "dependencies": {
+    "koa-send": "^3.3.0",
+    "promise.ify": "^0.3.0"
+  }
 }
