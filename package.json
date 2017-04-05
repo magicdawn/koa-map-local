@@ -1,6 +1,6 @@
 {
   "name": "koa-map-local",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Charles map local for Koa.js",
   "main": "index.js",
   "scripts": {
