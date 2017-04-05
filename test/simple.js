@@ -32,4 +32,14 @@ describe('Simple Test', function() {
       'foo': 'bar'
     })
   })
+
+  it('404', async function() {
+    const proxy = 'http://localhost:' + server.address().port
+    const res = await request
+      .get('http://proxytest.com/test/resource2.json')
+      .ok(res => res.status < 500)
+      .proxy(proxy)
+
+    res.status.should.equal(404)
+  })
 })
