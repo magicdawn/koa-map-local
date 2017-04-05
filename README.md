@@ -13,8 +13,22 @@ $ npm i koa-map-local --save
 ```
 
 ## API
+
 ```js
-const koaMapLocal = require('koa-map-local');
+const mapLocal = require('koa-map-local')
+const app = new (require('koa'))
+
+const publicDir = __dirname + '/public'
+app.use(publicDir)
+
+app.listen(1337)
+```
+
+### `mapLocal(publicDir)`
+
+```
+GET http://proxytest.com/test/resource.json
+will send `${ publicDir }/proxytest.com/test/resource.json` file
 ```
 
 ## Changelog
