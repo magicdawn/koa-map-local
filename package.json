@@ -42,7 +42,6 @@
     "README.md"
   ],
   "dependencies": {
-    "koa-send": "^3.3.0",
-    "promise.ify": "^0.3.0"
+    "koa-send": "^3.3.0"
   }
 }
