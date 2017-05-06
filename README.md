@@ -1,4 +1,6 @@
 # koa-map-local
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/magicdawn/koa-map-local.svg)](https://greenkeeper.io/)
 > Charles map local for Koa.js
 
 [![Build Status](https://img.shields.io/travis/magicdawn/koa-map-local.svg?style=flat-square)](https://travis-ci.org/magicdawn/koa-map-local)
